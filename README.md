@@ -1,2 +1,0 @@
-# csci4300CV
-My CV for CSCI 4300
