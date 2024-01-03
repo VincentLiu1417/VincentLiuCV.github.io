@@ -86,7 +86,7 @@ div.cloud2{
 .intro{
     position: relative;
     background-color: lightblue;
-    padding: 100px 0 200px 0;
+    padding: 100px 0 400px 0;
     background-image: url(../images/BgImage.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -113,115 +113,13 @@ div.cloud2{
     background-color: black;
 }
 .content h2{
-  color: #0F90B8;
+  color: #ffffff;
   font-size: 50px;
 }
 .welcome{
     padding: 5px 0px 0px 0px;
 }
-.three-col{
-    background-color: black;
-    
-}
-.column {
-    float: left;
-    width: 33.33%;
-    background-color: black;
-    padding-bottom: 200px;
-  }
-.card {
-    width: 300px;
-    height: 600px;
-    background-color: grey;
-    border-radius: 10px;
-    overflow: hidden; 
-    margin: 20px;
-    display: inline-block;
-    box-shadow: 5px 5px 5px #0F90B8;
-  }
-  
-  /* Style the card image */
-  .card img {
-    width: 100%;
-    height: 200px;
-    object-fit: scale-up;
-  }
-  
-  .card li {
-    text-align: left;
-    font-family: "Patrick Hand SC";
-    font-size: 20px;
-    color:white;
-    display: flex;
-  }
-  .card dt {
-    font-family: "Patrick Hand SC";
-    font-size: 20px;
-    color:white;
-    text-align: left;
-    padding-left: 10%;
-    display: flex;
-  }
-.card a{
-  font-family: "Patrick Hand SC";
-  font-size: 20px;
-  color:white;
-  display: flex;
-  padding-right: 5px;
 
-}
-.card dd{
-  font-family: "Patrick Hand SC";
-  font-size: 20px;
-  color:white;
-  text-align: left;
-  padding-left: 15%;
-  display: flex;
-}
-
-  .card-content {
-    padding: 0px;
-  }
-  
-  .card-content h3 {
-    font-size: 30px; 
-    margin-bottom: 10px;
-    text-decoration: underline;
-    font-family: "Patrick Hand SC";
-    color: white;
-
-  }
-  .contactContent{
-    background-color: black;
-    color: white;
-    background-image: url(../images/starsAndMoon.jpg);
-    background-repeat: no-repeat;
-    background-position:80%;
-    padding: 5%;
-  }
-  .contactContent h1{
-    margin: 0px;
-    padding: 50px;
-  }
-  .contactContent p{
-    margin: 0px;
-    font-family: "Patrick Hand SC";
-  }
-  .one-col{
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 150px;
-    font-family: "Patrick Hand SC";
-    font-size: 20px;
-  }
-  .one-col form{
-    background-color: #3f3f3f;
-    padding: 20px;
-    color: #0F90B8;
-  }
   
   .scroller {
     height: 34px;
@@ -258,3 +156,278 @@ div.cloud2{
       top: -98px;
     }
 } 
+
+.Experience {
+  display: flex;
+  margin: auto;
+  width: 1190px;
+}
+.expImg {
+  display: inline;
+  width: 60px;
+  height: 60px;
+  padding-left: 0px;
+  position: relative;
+  z-index: 1;
+}
+.webRectangleB {
+  position: relative;
+  top: 0;
+  left: 220px;
+  transform: translate(-63%, -70%);
+  width: 220px;
+  height: 40px;
+  background-color: #0F90B8; /* Change the color as needed */
+  
+}
+.webRectangleP {
+  position: relative;
+  top: 0;
+  left: 220px;
+  transform: translate(-55%, -70%);
+  width: 250px;
+  height: 40px;
+  background-color: #a915c7; /* Change the color as needed */
+  
+}
+.webRectangleR {
+  position: relative;
+  top: 0;
+  left: 220px;
+  transform: translate(-75%, -70%);
+  width: 190px;
+  height: 40px;
+  background-color: #ff0000; /* Change the color as needed */
+  
+}
+.Experience h2 {
+  font-family: "Aldrich";
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  display: inline;
+  position: relative;
+  z-index: 1;
+}
+.Experience h3 {
+  font-family: "Aldrich";
+  position: relative;
+  margin: 0px;
+  transform: translate(5%, -95%);
+  font-size: 28px;
+  padding-left: 70px;
+}
+.card1 {
+  color: #fff;
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  border: 5px solid grey;
+  padding: 20px;
+  border-right: 0px;
+  align-items: center;
+  display: inline-block;
+  text-align: left;
+}
+.card2 {
+  color: #fff;
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  border: 5px solid grey;
+  padding: 20px;
+  border-right: 0px;
+  display: inline-block;
+  text-align: left;
+}
+.card3 {
+  color: #fff;
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  border: 5px solid grey;
+  padding: 20px;
+  display: inline-block;
+  align-items: start;
+  text-align: left;
+}
+.webH3 {
+  color: grey;
+  font-size: 20px;
+  font-family: "Aldrich";
+  display: inline;
+}
+.vl {
+  border-right: 3px solid grey;
+  height: 300px;
+  display: inline-block;
+  padding-left: 22px;
+}
+.expContent {
+  display: inline-block;
+  padding-left: 30px;
+  font-family: "Patrick Hand SC";
+  font-size: 24px;
+  margin: 0;
+  max-width: 200px;
+  position: relative;
+  bottom: 40px;
+  text-align: left;
+}
+.ExpCard {
+  position: relative;
+  width: 1150px;
+  height: 607px;
+  color: #fff;
+  background: transparent;
+  overflow: hidden;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  margin: auto;
+  transform: translate(0%, -101%);
+}
+
+p {
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.ExpCard span {
+  position: absolute;
+  border-radius: 100vmax;
+}
+
+.top {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    transparent 50%,
+    rgba(106,15,184,0.5),
+    rgb(106,15,184)
+  );
+}
+
+.bottom {
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.5),
+    rgb(255,255,255),
+    transparent 50%
+  );
+}
+
+.right {
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 30%,
+    rgb(255, 0, 0),
+    rgba(255, 0, 0, 0.5)
+  );
+}
+
+.left {
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 255, 255, 0.5),
+    rgb(0, 255, 255),
+    transparent 70%
+  );
+}
+
+.top {
+  animation: animateTop 8s ease-in-out infinite;
+}
+
+.bottom {
+  animation: animateBottom 8s ease-in-out infinite;
+}
+
+.right {
+  animation: animateRight 8s ease-in-out infinite;
+}
+
+.left {
+  animation: animateLeft 8s ease-in-out infinite;
+}
+
+@keyframes animateTop {
+  25% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  30%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateBottom {
+  0%,
+  50% {
+    opacity: 0;
+    width: 0;
+  }
+
+  75% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  76%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateRight {
+  0%,
+  25% {
+    opacity: 0;
+    height: 0;
+  }
+
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+
+  55%,
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateLeft {
+  0%,
+  75% {
+    opacity: 0;
+    bottom: 0;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}
