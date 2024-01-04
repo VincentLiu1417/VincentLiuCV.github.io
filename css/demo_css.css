@@ -1264,6 +1264,7 @@ p {
   width: 800px;
   vertical-align: middle;
   position: relative;
+  transform: translate(0%, -72px);
 }
 
 .slideshowText {
