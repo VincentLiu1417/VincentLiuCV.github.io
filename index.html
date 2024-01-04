@@ -137,8 +137,56 @@
       </div>
   </div>
 
+  <div class="slideshow-container">
 
-  
+    <div class="mySlides fade">
+      <img src="images/BgImage.png" >
+      <div class="slideshowText">
+        <h2>Generic Gardens</h2>
+        <h3>Led a small group of developers to create a shopping website where customers can buy local farm fresh produce and where farmers can market their produce to their community. I worked on both the front end and back end of the utilizing react, mongodb, node.js, etc. Customers can buy trending and fresh produce while supporting thier local farms. We believe that farm to table isn't a trend. It's the way food is suppose to be.  </h3>
+      </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/birdDrawing.png" >
+      <div class="slideshowText">
+        <h2>Afterschool</h2>
+        <h3>Head programmer for the VR horror puzzle game Afterschool. The objective of this game is to solve a series of puzzle scattered around the map while also trying to avoid the mosnter that lurks in the hallways. Each puzzle will grant the player a clue to the next puzzle and if you get caught, it's detention for you. I was in charge for programming most of the puzzles, interactable objects, and modeling mutiple assets in the scene. </h3>
+      </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/computer.png">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slides[slideIndex-1].style.display = "block";  
+      }
+      </script>
+
 
 </section>
 
