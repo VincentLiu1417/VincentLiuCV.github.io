@@ -63,9 +63,9 @@ svg {
 
 .btn span {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 100;
-  font-family: "Aldrich";
+  font-family: "Patrick Hand SC";
 }
 
 body {
@@ -275,7 +275,7 @@ div.cloud2{
   font-size: 50px;
 }
 .content3 {
-  height: 700px;
+  height: 800px;
   width: 100%;
   transform: translate(0,30%);
 }
@@ -1412,6 +1412,7 @@ p {
   padding: 40px 0;
   font: 60px "Patrick Hand SC";
   color: #fff;
+  font-weight: bold;
 }
 
 .contact-wrapper {
@@ -1480,7 +1481,7 @@ p {
 }
 
 .alt-send-button:hover {
-  transform: translate3d(0px, -28px, 0px);
+  transform: translate3d(0px, -34px, 0px);
 }
 
 .fa {
@@ -1500,9 +1501,25 @@ p {
   transform: translate(0,4px);
 }
 
+.fa-github {
+  background-image: url(../images/githubIcon.png);
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  
+}
+
+.fa-linkedln {
+  background-image: url(../images/linkedlnIcon.png);
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+
 /* Begin Right Contact Page */
 .direct-contact-container {
   max-width: 400px;
+  text-align: left;
 }
 
 /* Location, Phone, Email Section */
@@ -1510,6 +1527,7 @@ p {
   list-style-type: none;
   margin-left: -30px;
   padding-right: 20px;
+  height: 200px;
 }
 
 .list-item {
@@ -1524,17 +1542,35 @@ p {
 }
 
 .place {
-  margin-left: 62px;
+  margin-left: 20px;
 }
-
+.placeImg {
+  background-image: url(../images/locationIcon.png);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
 .phone {
-  margin-left: 56px;
+  margin-left: 20px;
 }
-
+.phoneImg {
+  background-image: url(../images/phoneIcon.png);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
 .gmail {
-  margin-left: 53px;
+  margin-left: 20px;
 }
-
+.gmailImg {
+  background-image: url(../images/emailIcon.png);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
 .contact-text a {
   color: #bbb;
   text-decoration: none;
