@@ -36,7 +36,7 @@
   height: 60px;
   cursor: pointer;
   background: transparent;
-  border: 2px solid #91C9FF;
+  border: 2px solid white;
   outline: none;
   transition: 1s ease-in-out;
 }
@@ -200,7 +200,7 @@ footer a{
     margin: 0 10px; 
 }
 footer a:hover {
-    background-color: #f0f0f0;
+    
     color: #0F90B8; 
     border-radius: 5px; 
 }
@@ -257,10 +257,27 @@ div.cloud2{
 }
 .content{
     background-color: black;
+    background:
+    conic-gradient(from -45deg at bottom,black 90deg,rgb(66, 66, 66) 0) 50%/150px 100%;
+    height: 1200px;
 }
 .content h2{
   color: #ffffff;
   font-size: 50px;
+}
+.content1 {
+  background-color: rgb(66, 66, 66);
+  height: 2000px;
+  background:
+    conic-gradient(from -45deg at bottom,rgb(66, 66, 66) 90deg,black 0) 50%/150px 100%;
+}
+.content1 h2 {
+  font-size: 50px;
+}
+.content3 {
+  height: 700px;
+  width: 100%;
+  transform: translate(0,30%);
 }
 .welcome{
     padding: 5px 0px 0px 0px;
@@ -583,7 +600,7 @@ p {
   text-align: left;
   position: relative;
   width: 1000px;
-  transform: translate(0%,-40%);
+  transform: translate(0%,20%);
 }
 
 .mySkills h2 {
@@ -623,7 +640,7 @@ p {
   position: absolute;
   width:400px;
   height:5px;
-  background-color: #333;
+  background-color: black;
   top:300px;
 }
 
@@ -632,9 +649,9 @@ p {
   position: absolute;
   width:10px;
   height:5px;
-  background-color: #333;
+  background-color: black;
   top:4px;
-  box-shadow: 20px 0 #333, -20px 0 #333, -40px 0 #333, -60px 0 #333, -80px 0 #333, 40px 0 #333, 60px 0 #333, 80px 0 #333, 100px 0 #333, 120px 0 #333, 140px 0 #333, 160px 0 #333, 180px 0 #333, 200px 0 #333, 220px 0 #333, 240px 0 #333, 260px 0 #333, 280px 0 #333, 300px 0 #333, 320px 0 #333, 340px 0 #333, 360px 0 #333, 380px 0 #333, 400px 0 #333, 420px 0 #333, 440px 0 #333, -100px 0 #333, -120px 0 #333, -140px 0 #333, 460px 0 #333, 480px 0 #333;
+  box-shadow: 20px 0 black, -20px 0 black, -40px 0 black, -60px 0 black, -80px 0 black, 40px 0 black, 60px 0 black, 80px 0 black, 100px 0 black, 120px 0 black, 140px 0 black, 160px 0 black, 180px 0 black, 200px 0 black, 220px 0 black, 240px 0 black, 260px 0 black, 280px 0 black, 300px 0 black, 320px 0 black, 340px 0 black, 360px 0 black, 380px 0 black, 400px 0 black, 420px 0 black, 440px 0 black, -100px 0 black, -120px 0 black, -140px 0 black, 460px 0 black, 480px 0 black;
   animation: move 1s linear infinite reverse;
 }
 
@@ -647,7 +664,7 @@ p {
   position: absolute;
   width: 50px;
   height: 30px;
-  border:5px solid #333;
+  border:5px solid black;
   background-color: #ff0004;
   border-radius:0 10px 0 0;
   top:230px;
@@ -664,7 +681,7 @@ p {
 .train:before {
   content:"";
   position: absolute;
-  border:5px solid #333;
+  border:5px solid black;
   background-color: #0F90B8;
   width:35px;
   height:60px;
@@ -678,7 +695,7 @@ p {
   width: 100px;
   height:5px;
   border-radius:10px;
-  border: 5px solid #333;
+  border: 5px solid black;
   background-color: #8502ff;
   top:30px;
   left:-50px;
@@ -686,7 +703,7 @@ p {
 
 .front {
   position: absolute;
-  border: 5px solid #333;
+  border: 5px solid black;
   background-color: #aed9e0;
   box-shadow: inset 2px -5px rgba(255,255,255,0.3);
   width:20px;
@@ -698,13 +715,13 @@ p {
 .front:before {
   content:"";
   position: absolute;
-  background-color: #333;
+  background-color: black;
   width:15px;
   height:5px;
   border-radius:10px;
   top: 25px;
   left:70px;
-  box-shadow: 0px 10px #333, -50px -45px #333, -86px -45px #333, -22px -41px #333,-11px -41px #333;
+  box-shadow: 0px 10px black, -50px -45px black, -86px -45px black, -22px -41px black,-11px -41px black;
 }
 
 .front:after {
@@ -712,7 +729,7 @@ p {
   position: absolute;
   width:12px;
   height:20px;
-  border: 5px solid #333;
+  border: 5px solid black;
   left:50px;
   top:-16px;
   background-color:#adb5bd;
@@ -725,7 +742,7 @@ p {
 
 .smallOne, .smallTwo, .smallThree, .smallFour, .smallFive, .smallSix {
   position: absolute;
-  border: 5px solid #333;
+  border: 5px solid black;
   border-radius:50%;
   width: 15px;
   height:15px;
@@ -767,7 +784,7 @@ p {
 
 .big {
   position: absolute;
-  border: 5px solid #333;
+  border: 5px solid black;
   border-radius:50%;
   width:25px;
   height:25px;
@@ -782,7 +799,7 @@ p {
   position: absolute;
   width: 10px;
   height:5px;
-  background-color: #333;
+  background-color: black;
   top:35px;
   left:-59px;
   z-index:3;
@@ -793,7 +810,7 @@ p {
   position: absolute;
   height:5px;
   width: 70px;
-  background-color: #333;
+  background-color: black;
   top:15px;
   left:35px;
 }
@@ -801,7 +818,7 @@ p {
 .cord:after {
   content:"";
   position: absolute;
-  background-color: #333;
+  background-color: black;
   border-radius:50%;
   width:15px;
   height:15px;
@@ -813,7 +830,7 @@ p {
   position: absolute;
   width:80px;
   height:60px;
-  border:5px solid #333;
+  border:5px solid black;
   background-color: #ff0004;
   left:-145px;
   top:-20px;
@@ -824,7 +841,7 @@ p {
   position: absolute;
   width: 10px;
   height:5px;
-  background-color: #333;
+  background-color: black;
   top:50px;
   left:-15px;
 }
@@ -834,7 +851,7 @@ p {
   position: absolute;
   width:80px;
   height:60px;
-  border:5px solid #333;
+  border:5px solid black;
   background-color: #0F90B8;
   top:-5px;
   left:-100px;
@@ -842,7 +859,7 @@ p {
 
 .coachTwo {
   position: absolute;
-  border:5px solid #333;
+  border:5px solid black;
   background-color: #aed9e0;
   box-shadow: inset 2px -5px rgba(255,255,255,0.3);
   width: 15px;
@@ -854,7 +871,7 @@ p {
 .coachTwo:before, .coachTwo:after {
   content:"";
   position: absolute;
-  border:5px solid #333;
+  border:5px solid black;
   background-color: #aed9e0;
   box-shadow: inset 2px -5px rgba(255,255,255,0.3);
   width: 15px;
@@ -872,7 +889,7 @@ p {
 
 .windows {
   position: absolute;
-  border:5px solid #333;
+  border:5px solid black;
   background-color: #aed9e0;
   box-shadow: inset 2px -5px rgba(255,255,255,0.3);
   width: 15px;
@@ -885,24 +902,24 @@ p {
 .windows:before {
   content:"";
   position: absolute;
-  background-color: #333;
+  background-color: black;
   height:5px;
   width: 95px;
   border-radius:10px;
   top:-20px;
   left:-153px;
-  box-shadow: 95px 0px #333;
+  box-shadow: 95px 0px black;
 }
 
 .windows:after {
   content:"";
   position: absolute;
-  background-color: #333;
+  background-color: black;
   height:5px;
   width:40px;
   top:51px;
   left:-125px;
-  box-shadow: 95px 0 #333;
+  box-shadow: 95px 0 black;
 }
 
 @keyframes spin {
@@ -1250,7 +1267,7 @@ p {
 
 .projectHeader {
   position: relative;
-  transform: translate(0%,-150%);
+  transform: translate(0%,70%);
 }
 
 /* Slideshow container */
@@ -1262,7 +1279,7 @@ p {
   background-color: grey;
   height: 600px;
   opacity: 50%;
-  transform: translate(0%,-45%);
+  transform: translate(0%,20%);
 
   --g: 0px;     /* the gap */
   --b: 12px;    /* border thickness*/
@@ -1314,6 +1331,7 @@ p {
   font-size: 28px;
   color: white;
   font-family: "Patrick Hand SC";
+  font-weight: normal;
 }
 
 /* Next & previous buttons */
@@ -1380,4 +1398,287 @@ p {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+
+#contact {
+  width: 100%;
+  height: 100%;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 60px "Patrick Hand SC";
+  color: #fff;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+  /*float: left;*/
+  max-width: 400px;
+  font-family: "Patrick Hand SC";
+  font-weight: bold;
+}
+
+.form-control {
+  width: 400px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  height: 40px;
+  font-family: "Patrick Hand SC";
+  font-size: 20px;
+  border: 2px solid white;
+}
+
+.form-control:focus {
+  border: 2px solid blue;
+}
+
+.textcontrol {
+  width: 400px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  height: 150px;
+  font-family: "Patrick Hand SC";
+  font-size: 20px;
+  border: 2px solid white;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 410px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  font-family: "Patrick Hand SC";
+}
+
+.alt-send-button {
+  width: 400px;
+  height: 34px;
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font-family: "Patrick Hand SC";
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -28px, 0px);
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-paper-plane {
+  background-image: url(../images/planeIcon.png);
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  transform: translate(0,4px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px "Patrick Hand SC";
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative; 
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27,27,27);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff; 
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;  
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px "Patrick Hand SC";
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255,255,255,.6);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .direct-contact-container, .form-horizontal {
+    margin: 0 auto;
+  }  
+  
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }    
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+
+  .direct-contact-container, .form-wrapper {
+    float: none;
+    margin: 0 auto;
+  }  
+  .form-control, textarea {
+    
+    margin: 0 auto;
+  }
+ 
+  
+  .name, .email, textarea {
+    width: 280px;
+  } 
+  
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 280px;
+  }  
+  .social-media-list {
+    left: 0;
+  }
+  .social-media-list li {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 2rem;
+  }
+  .social-media-list li:after {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+  
+}
+
+@media screen and (max-width: 410px) {
+  .send-button {
+    width: 99%;
+  }
 }
