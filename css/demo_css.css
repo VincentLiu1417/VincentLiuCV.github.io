@@ -6,6 +6,7 @@
  position: relative;
  text-decoration: none;
  color: white;
+ font-family: "Aldrich";
 }
 @keyframes helloBtn{
   0% { opacity: 0; }
