@@ -1273,7 +1273,7 @@ p {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 1600px;
+  width: 1200px;
   position: relative;
   margin: auto;
   display: flex;
@@ -1309,17 +1309,18 @@ p {
 .slideshow-container img {
   height: 600px;
   object-fit: cover;
-  width: 800px;
+  width: 600px;
   vertical-align: middle;
   position: relative;
-  transform: translate(0%, -72px);
+  transform: translate(0%, -37.5%);
+  display: inline-block;
 }
 
 .slideshowText {
   display: inline-block;
-  width: 780px;
+  width:580px;
   position: relative;
-  transform: translate(0%, 20%);
+  transform: translate(0%, 8%);
 }
 .slideshowText h2 {
   font-family: "Aldrich";
