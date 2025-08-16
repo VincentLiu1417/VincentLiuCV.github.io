@@ -260,15 +260,17 @@ div.cloud2{
     /*background-color: black;*/
     /*background:
     conic-gradient(from -45deg at bottom,black 90deg,rgb(27, 27, 27) 0) 50%/150px 100%;*/
-    height: 1200px;
+    height: 1100px;
+    height: 100%;
 }
 .content h2{
   color: #ffffff;
   font-size: 50px;
 }
 .content1 {
-  background-color: rgb(27, 27, 27);
-  height: 5000px;
+  background-color: rgb(0, 0, 0);
+  /*height: 3000px;*/
+  height: 100%;
   /*background:
     conic-gradient(from -45deg at bottom,rgb(27, 27, 27) 90deg,black 0) 50%/150px 100%;*/
 }
@@ -1269,7 +1271,7 @@ p {
 .projectHeader {
   position: relative;
   transform: translate(0%,70%);
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 }
 
 /* Slideshow container */
@@ -1735,7 +1737,7 @@ hr {
 .projectCard {
   position: relative;
   width: 400px;
-  height: 600px;
+  height: 650px;
   color: #fff;
   transition: 0.5s;
   cursor: pointer;
@@ -1839,7 +1841,7 @@ hr {
 .projectCard1 {
   position: relative;
   width: 400px;
-  height: 600px;
+  height: 650px;
   color: #fff;
   transition: 0.5s;
   cursor: pointer;
@@ -1943,7 +1945,7 @@ hr {
 .projectCard2 {
   position: relative;
   width: 400px;
-  height: 600px;
+  height: 650px;
   color: #fff;
   transition: 0.5s;
   cursor: pointer;
